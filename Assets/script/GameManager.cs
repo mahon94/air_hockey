@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
                     GOP1.transform.position = new Vector3(GOP1.transform.position.x, GOP1.transform.position.y - 1, GOP1.transform.position.z);
 
                     Vector3 jahat = wview - GOP1.transform.position;
-                    GOP1.rigidbody.velocity= jahat * Time.deltaTime * speed;
+                    GOP1.GetComponent<Rigidbody>().velocity= jahat * Time.deltaTime * speed;
                 }
                 else if(tview.x>0.52 && !p2scr.istouched){
                     p2scr.finId=Input.GetTouch(i).fingerId;
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
                     GOP2.transform.position = new Vector3(GOP2.transform.position.x, GOP2.transform.position.y - 1, GOP2.transform.position.z);
 
                     Vector3 jahat = wview- GOP2.transform.position;
-                    GOP2.rigidbody.velocity = jahat * Time.deltaTime * speed;
+                    GOP2.GetComponent<Rigidbody>().velocity = jahat * Time.deltaTime * speed;
                 }
             }
 
@@ -67,10 +67,10 @@ public class GameManager : MonoBehaviour
                     if (.05<tview.x && tview.x < 0.5 && tview.y>.05 && tview.y<0.95)
                     {
                         Vector3 jahat = wview - GOP1.transform.position;
-                        GOP1.rigidbody.velocity = jahat * Time.deltaTime * speed;
+                        GOP1.GetComponent<Rigidbody>().velocity = jahat * Time.deltaTime * speed;
                     }
                     else {
-                        GOP1.rigidbody.velocity = new Vector3(0, 0, 0); 
+                        GOP1.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0); 
                     }
 
                 }
@@ -79,10 +79,10 @@ public class GameManager : MonoBehaviour
                     if (tview.x >= 0.5)
                     {
                         Vector3 jahat = wview - GOP2.transform.position;
-                        GOP2.rigidbody.velocity = jahat * Time.deltaTime * speed;
+                        GOP2.GetComponent<Rigidbody>().velocity = jahat * Time.deltaTime * speed;
                     }
                     else {
-                        GOP2.rigidbody.velocity = new Vector3(0, 0, 0);
+                        GOP2.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                     }
                 }
             }
@@ -91,10 +91,10 @@ public class GameManager : MonoBehaviour
             else if(Input.GetTouch(i).phase == TouchPhase.Stationary){
                 Debug.Log(Input.GetTouch(i) + "not moved");
                 if(p1scr.istouched && p1scr.finId == Input.GetTouch(i).fingerId){
-                    GOP1.rigidbody.velocity= new Vector3(0,0,0);
+                    GOP1.GetComponent<Rigidbody>().velocity= new Vector3(0,0,0);
                 }
                 else if(p2scr.istouched && p2scr.finId == Input.GetTouch(i).fingerId){
-                    GOP2.rigidbody.velocity= new Vector3(0,0,0);
+                    GOP2.GetComponent<Rigidbody>().velocity= new Vector3(0,0,0);
                 }
             }
 // touch is ended
@@ -107,14 +107,14 @@ public class GameManager : MonoBehaviour
 
                     GOP1.transform.position = new Vector3(GOP1.transform.position.x, GOP1.transform.position.y + 1, GOP1.transform.position.z);
 
-                    GOP1.rigidbody.velocity= new Vector3(0,0,0);
+                    GOP1.GetComponent<Rigidbody>().velocity= new Vector3(0,0,0);
                 }
                 else if(p2scr.istouched && p2scr.finId == Input.GetTouch(i).fingerId){
                     p2scr.istouched=false; //change finid for debug
 
                     GOP2.transform.position = new Vector3(GOP2.transform.position.x, GOP2.transform.position.y + 1, GOP2.transform.position.z);
 
-                    GOP2.rigidbody.velocity= new Vector3(0,0,0);
+                    GOP2.GetComponent<Rigidbody>().velocity= new Vector3(0,0,0);
                 }
           
             }
@@ -122,11 +122,11 @@ public class GameManager : MonoBehaviour
 
         if (!p1scr.istouched)
         {
-            GOP1.rigidbody.velocity = new Vector3(0, 0, 0);
+            GOP1.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         }
         if (!p2scr.istouched)
         {
-            GOP2.rigidbody.velocity = new Vector3(0, 0, 0);
+            GOP2.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         }
 
     }

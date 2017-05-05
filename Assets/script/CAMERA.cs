@@ -11,7 +11,7 @@ public class CAMERA : MonoBehaviour
     public float DesignAspectWidth;
     public void Start()
     {
-        this.DesignOrthographicSize = this.camera.orthographicSize;
+        this.DesignOrthographicSize = this.GetComponent<Camera>().orthographicSize;
         this.DesignAspect = this.DesignAspectHeight / this.DesignAspectWidth;
         this.DesignWidth = this.DesignOrthographicSize * this.DesignAspect;
 
@@ -21,8 +21,8 @@ public class CAMERA : MonoBehaviour
     public void Resize()
     {
         Debug.Log("ss");
-        float wantedSize = this.DesignWidth / this.camera.aspect;
-        this.camera.orthographicSize = Mathf.Max(wantedSize,
+        float wantedSize = this.DesignWidth / this.GetComponent<Camera>().aspect;
+        this.GetComponent<Camera>().orthographicSize = Mathf.Max(wantedSize,
             this.DesignOrthographicSize);
     }
 }

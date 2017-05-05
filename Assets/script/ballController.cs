@@ -34,7 +34,7 @@ public class ballController : MonoBehaviour {
         }
 
         else {
-            audio.Play();
+            GetComponent<AudioSource>().Play();
         }
 
     }
