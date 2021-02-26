@@ -1,0 +1,339 @@
+Mono path[0] = '/Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Resources/Data/Managed'
+Mono config path = '/Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/MonoBleedingEdge/etc'
+Initialize engine version: 2018.4.31f1 (212ea663d844)
+GfxDevice: creating device client; threaded=1
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.079 seconds
+UnloadTime: 1.150816 ms
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libcoreclr.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libdl.so
+puck reinitialized0
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Metal RecreateSurface[0x7faa90769120]: surface size 84x84
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized1
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized2
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized3
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized4
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized5
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized6
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized7
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized8
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized9
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized10
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized11
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized12
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized13
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized14
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized15
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized16
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized17
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Metal RecreateSurface[0x7faa90769120]: surface size 2560x1440
+Metal RecreateSurface[0x7faa90769120]: surface size 2560x1440
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized18
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized19
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized20
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized21
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized22
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized23
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized24
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized25
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized26
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized27
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized28
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized29
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized30
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized31
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized32
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized33
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+left
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized34
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized35
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized36
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized37
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+right
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+puck reinitialized38
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 70000e236000 -> priority: 1 
+  Thread -> id: 70000fb63000 -> priority: 1 
+  Thread -> id: 70000fc69000 -> priority: 1 
+  Thread -> id: 70000f728000 -> priority: 1 
+  Thread -> id: 70000fdf2000 -> priority: 1 
+  Thread -> id: 70000fe75000 -> priority: 1 
+  Thread -> id: 70000fa54000 -> priority: 1 
+  Thread -> id: 70000fd6f000 -> priority: 1 
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/advapi32.dll
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/advapi32
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll.dylib
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll.so
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll.bundle
+Fallback handler could not load library /Users/maryamhonari/workspace/air_hockey_mlagents/mlagentlearn/builds/airhockey_base.app/Contents/Frameworks/MonoEmbedRuntime/osx/libadvapi32.dll

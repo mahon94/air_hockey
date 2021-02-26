@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1614012599",
+        "python_version": "3.6.8 (default, Feb  9 2021, 16:09:37) \n[GCC Apple LLVM 12.0.0 (clang-1200.0.32.29)]",
+        "command_line_arguments": "/Users/maryamhonari/.pyenv/versions/mla36/bin/mlagents-learn config/AirHockey.yaml --run-id=00Run",
+        "mlagents_version": "0.24.0.dev0",
+        "mlagents_envs_version": "0.24.0.dev0",
+        "communication_protocol_version": "1.4.0",
+        "pytorch_version": "1.7.1",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1614012624"
+    },
+    "total": 24.621098955998605,
+    "count": 1,
+    "self": 0.0070547140057897195,
+    "children": {
+        "run_training.setup": {
+            "total": 0.02705046699702507,
+            "count": 1,
+            "self": 0.02705046699702507
+        },
+        "TrainerController.start_learning": {
+            "total": 24.58699377499579,
+            "count": 1,
+            "self": 0.0006073460026527755,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 24.586293107997335,
+                    "count": 1,
+                    "self": 24.586293107997335
+                },
+                "trainer_threads": {
+                    "total": 1.7692997062113136e-05,
+                    "count": 1,
+                    "self": 1.7692997062113136e-05
+                },
+                "TrainerController._save_models": {
+                    "total": 7.562799873994663e-05,
+                    "count": 1,
+                    "self": 7.562799873994663e-05
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "airHockey": {
+        "checkpoints": [
+            {
+                "steps": 17358,
+                "file_path": "results/02Run/airHockey/airHockey-17358.onnx",
+                "reward": -0.7820701838323945,
+                "creation_time": 1614311914.397635
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 17358,
+            "file_path": "results/02Run/airHockey.onnx",
+            "reward": -0.7820701838323945,
+            "creation_time": 1614311914.397635
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.24.0.dev0",
+        "torch_version": "1.7.1"
+    }
+}

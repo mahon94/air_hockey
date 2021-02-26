@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/td.unity
+- path: Assets/Scenes/airhockey.unity
   isLoaded: 1
   isActive: 1
